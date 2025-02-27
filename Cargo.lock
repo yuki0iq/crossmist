@@ -243,7 +243,7 @@ dependencies = [
  "libc",
  "macro_rules_attribute",
  "paste",
- "rustix 1.0.0-prerelease.0",
+ "rustix 1.0.0-prerelease.1",
  "smol",
  "smol-macros",
  "tokio",
@@ -430,9 +430,9 @@ checksum = "d26c52dbd32dccf2d10cac7725f8eae5296885fb5703b261f7d0a0739ec807ab"
 
 [[package]]
 name = "linux-raw-sys"
-version = "0.8.0"
+version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8bbbb933f93c53df320d2bb19124961a8e91fad88d2dd6f4f40e85ab13d4bb5e"
+checksum = "8b713d55b8d76054c84da1d09a53a3509a2618b636cbdc714c65b48d6ea715d9"
 
 [[package]]
 name = "macro_rules_attribute"
@@ -568,14 +568,14 @@ dependencies = [
 
 [[package]]
 name = "rustix"
-version = "1.0.0-prerelease.0"
+version = "1.0.0-prerelease.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ad4efe75c3401c687f565dd0a9df63401092854aa92fc4922da8d0b37a0343ba"
+checksum = "d3290d8786bcf0218a95ee77c3a7a3c57c86540023cc3ee71650c6623cd78d71"
 dependencies = [
  "bitflags",
  "errno",
  "libc",
- "linux-raw-sys 0.8.0",
+ "linux-raw-sys 0.9.0",
  "windows-sys 0.52.0",
 ]
 
